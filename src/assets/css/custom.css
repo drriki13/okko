@@ -1,0 +1,10 @@
+body {
+    font-family: "OKKO_Sans-Regular";
+}
+
+@font-face {
+    font-family: "OKKO_Sans-Regular";  
+    src: url("../fonts/OKKO_Sans-Regular.39f3cae1.woff2") format("truetype"); 
+    font-style: 16px; 
+    font-weight: 400;
+}

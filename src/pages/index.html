@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/custom.css">
 </head>
-<body class="text-white bg-[#12051e]">
+<body class="text-white bg-[#12051e] font_regular">
     
-    <header class="flex items-center px-24 bg-[#1a082c] w-full">
+    <header class="flex items-center px-24 bg-[#1a082c] w-full font_medium">
         <nav class="h-20 flex items-center">
             <a href="#" class="flex items-center justify-center pr-11">
                 <svg class="w-[85px] fill-white">
@@ -57,7 +57,7 @@
         </div>
     </header>
 
-    <header class="bg-[#210d36]/80 px-24 h-[4.5rem] sticky top-0 z-[999]">
+    <header class="bg-[#210d36]/80 backdrop-blur-md px-24 h-[4.5rem] sticky top-0 z-[999] font_medium">
         <ul class="flex items-center px-32 w-full h-full">
             <li class="flex items-center h-full border-b-2 border-[#A076F6]"><a href="#" class="text-lg">Рекомендации</a></li>
             <li class="flex items-center h-full ml-7"><a href="#" class="text-lg text-[#8c8493] hover:text-white">Новинки</a></li>
@@ -69,7 +69,7 @@
     </header>
 
     <!-- Content -->
-    <div class="flex flex-col w-full py-12 h-[2000px]">
+    <div class="flex flex-col w-full py-12">
             <!-- Slider -->
             <div class="relative flex items-center justify-center overflow-hidden pb-20 group">
                 <div class="rounded-3xl overflow-hidden opacity-60 mx-2.5 shrink-0">
@@ -115,8 +115,208 @@
                     </button>
                 </div>
             </div>
+
+            <!-- New section -->
+            <div class="flex flex-col mb-14 group">
+                <a href="#" class="flex items-center mb-6 ml-24  text-3xl font_bold">
+                    Новое в подписке
+                    <svg class="w-5 h-5 rotate-90 mt-1 ml-2 opacity-0 group-hover:opacity-80 duration-300">
+                        <use xlink:href="../assets/icons/icons.svg#arrow-up-stroke"></use>
+                    </svg>
+                </a>
+                <div class="relative flex items-center justify-center -mt-5 overflow-hidden">
+                    <div class="flex items-center ml-24">
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/new/18020653.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/new/18134219.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/new/18149906.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/new/18347748.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/new//18373012.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/new/18488102.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                    </div>
+                    
+                    <div class="block">
+                        <button class="absolute inset-y-1/2 left-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-0 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#left"></use>
+                            </svg>
+                        </button>
+                        <button class="absolute inset-y-1/2 right-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-100 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top new section -->
+            <div class="flex flex-col mb-14 group">
+                <a href="#" class="flex items-center mb-6 ml-24  text-3xl font_bold">
+                    Топ-новинки
+                    <svg class="w-5 h-5 rotate-90 mt-1 ml-2 opacity-0 group-hover:opacity-80 duration-300">
+                        <use xlink:href="../assets/icons/icons.svg#arrow-up-stroke"></use>
+                    </svg>
+                </a>
+                <div class="relative flex items-center justify-center -mt-5 overflow-hidden">
+                    <div class="flex items-center ml-24">
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/top-new/18290623.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/top-new/18352583.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/top-new/18492690.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/top-new/18531878.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/top-new/18533581.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                    </div>
+                    
+                    <div class="block">
+                        <button class="absolute inset-y-1/2 left-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-0 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#left"></use>
+                            </svg>
+                        </button>
+                        <button class="absolute inset-y-1/2 right-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-100 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category section -->
+            <div class="flex flex-col mb-14 group">
+                <a href="#" class="flex items-center mb-6 ml-24  text-3xl font_bold">
+                    Жанры
+                    <svg class="w-5 h-5 rotate-90 mt-1 ml-2 opacity-0 group-hover:opacity-80 duration-300">
+                        <use xlink:href="../assets/icons/icons.svg#arrow-up-stroke"></use>
+                    </svg>
+                </a>
+                <div class="relative flex items-center justify-center -mt-5 overflow-hidden">
+                    <div class="flex items-center ml-24">
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323660.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323665.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323701.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323704.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323767.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323769.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323770.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323772.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323774.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13323775.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/category/13345116.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                    </div>
+                    
+                    <div class="block">
+                        <button class="absolute inset-y-1/2 left-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-0 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#left"></use>
+                            </svg>
+                        </button>
+                        <button class="absolute inset-y-1/2 right-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-100 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Free section -->
+            <div class="flex flex-col mb-14 group">
+                <a href="#" class="flex items-center mb-6 ml-24  text-3xl font_bold">
+                    Топ-новинки
+                    <svg class="w-5 h-5 rotate-90 mt-1 ml-2 opacity-0 group-hover:opacity-80 duration-300">
+                        <use xlink:href="../assets/icons/icons.svg#arrow-up-stroke"></use>
+                    </svg>
+                </a>
+                <div class="relative flex items-center justify-center -mt-5 overflow-hidden">
+                    <div class="flex items-center ml-24">
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/17725890.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/18244910.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/18340279.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/8075712.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/8075801.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/9087629.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                    </div>
+                    
+                    <div class="block">
+                        <button class="absolute inset-y-1/2 left-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-0 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#left"></use>
+                            </svg>
+                        </button>
+                        <button class="absolute inset-y-1/2 right-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-100 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
     
-
+    <!-- Float button -->
+    <div class="sticky bottom-[5%] left-[92%] w-24 h-24 flex items-center justify-center">
+        <button class="flex items-center justify-center bg-[#6c43bf] rounded-full w-12 h-12 hover:scale-105 duration-300">
+            <svg class="w-6 h-6">
+                <use xlink:href="../assets/icons/icons.svg#chat"></use>
+            </svg>
+        </button>
+    </div>
+    
 </body>
 </html>

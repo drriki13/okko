@@ -1,10 +1,43 @@
-body {
+.font_regular {
     font-family: "OKKO_Sans-Regular";
+}
+
+.font_medium {
+    font-family: "OKKO_Sans-Medium";
+}
+
+.font_demi_bold {
+    font-family: "OKKO_Sans-DemiBold";
+}
+
+.font_bold {
+    font-family: "OKKO_Sans-Bold";
 }
 
 @font-face {
     font-family: "OKKO_Sans-Regular";  
     src: url("../fonts/OKKO_Sans-Regular.39f3cae1.woff2") format("truetype"); 
+    font-style: 16px; 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OKKO_Sans-Medium";  
+    src: url("../fonts/OKKO_Sans-Medium.58354c5e.woff2") format("truetype"); 
+    font-style: 16px; 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OKKO_Sans-DemiBold";  
+    src: url("../fonts/OKKO_Sans-DemiBold.a9c9fa7c.woff2") format("truetype"); 
+    font-style: 16px; 
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OKKO_Sans-Bold";  
+    src: url("../fonts/OKKO_Sans-Bold.94699fcb.woff2") format("truetype"); 
     font-style: 16px; 
     font-weight: 400;
 }

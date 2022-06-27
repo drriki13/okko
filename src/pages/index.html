@@ -11,7 +11,7 @@
 </head>
 <body class="text-white bg-[#12051e] font_regular">
     
-    <header class="flex items-center px-24 bg-[#1a082c] w-full font_medium">
+    <header class="hidden md:flex items-center px-24 bg-[#1a082c] w-full font_medium">
         <nav class="h-20 flex items-center">
             <a href="#" class="flex items-center justify-center pr-11">
                 <svg class="w-[85px] fill-white">
@@ -57,7 +57,7 @@
         </div>
     </header>
 
-    <header class="bg-[#210d36]/80 backdrop-blur-md px-24 h-[4.5rem] sticky top-0 z-[999] font_medium">
+    <header class="hidden md:block bg-[#210d36]/80 backdrop-blur-md px-24 h-[4.5rem] sticky top-0 z-[999] font_medium">
         <ul class="flex items-center px-32 w-full h-full">
             <li class="flex items-center h-full border-b-2 border-[#A076F6]"><a href="#" class="text-lg">Рекомендации</a></li>
             <li class="flex items-center h-full ml-7"><a href="#" class="text-lg text-[#8c8493] hover:text-white">Новинки</a></li>
@@ -68,8 +68,36 @@
         </ul>
     </header>
 
+    <header class="md:hidden flex items-center justify-between px-8 bg-[#1a082c] w-full font_medium">
+        <nav class="h-16 flex items-center">
+            <a href="#" class="flex items-center justify-center pr-11">
+                <svg class="w-[69px] fill-white">
+                    <use xlink:href="../assets/icons/icons.svg#okko"></use>
+                </svg>
+            </a>
+        </nav>
+
+        <div class="flex items-center">
+            <a href="#">
+                <svg class="h-6 w-6 fill-white">
+                    <use xlink:href="../assets/icons/icons.svg#search"></use>
+                </svg>
+            </a>
+            <a href="#" class="flex items-center ml-6 text-lg">
+                <svg class="h-6 w-6 text-white">
+                    <use xlink:href="../assets/icons/icons.svg#profile"></use>
+                </svg>
+            </a>
+            <a href="#" class="flex items-center ml-6 text-lg">
+                <svg class="h-6 w-6 fill-white mr-4">
+                    <use xlink:href="../assets/icons/icons.svg#hamburger"></use>
+                </svg>
+            </a>
+        </div>
+    </header>
+
     <!-- Content -->
-    <div class="flex flex-col w-full py-12">
+    <div class="flex flex-col w-full pt-12 pb-8">
             <!-- Slider -->
             <div class="relative flex items-center justify-center overflow-hidden pb-20 group">
                 <div class="rounded-3xl overflow-hidden opacity-60 mx-2.5 shrink-0">
@@ -307,7 +335,226 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Star wars section -->
+            <div class="relative flex flex-col mb-24">
+                <img src="../assets/images/star wars/bg-section.webp" alt="bg-section" class="absolute">
+                <a href="#" class="relative flex items-center pt-16 pl-24  text-3xl font_bold">
+                   <img src="../assets/images/star wars/link.png" alt="star wars link" class="w-[25vw]">
+                </a>
+                <div class="relative flex items-center justify-center -mt-5 overflow-hidden group">
+                    <div class="flex items-center ml-24">
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/star wars/16540569.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/star wars/16540614.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/star wars/16540661.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/star wars/16553168.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/star wars/16563634.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/star wars/7480348.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                    </div>
+                    
+                    <div class="block">
+                        <button class="absolute inset-y-1/2 left-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-0 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#left"></use>
+                            </svg>
+                        </button>
+                        <button class="absolute inset-y-1/2 right-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-100 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dark section -->
+            <div class="flex flex-col mb-14 group">
+                <a href="#" class="flex items-center mb-6 ml-24  text-3xl font_bold">
+                    Темные времена
+                    <svg class="w-5 h-5 rotate-90 mt-1 ml-2 opacity-0 group-hover:opacity-80 duration-300">
+                        <use xlink:href="../assets/icons/icons.svg#arrow-up-stroke"></use>
+                    </svg>
+                </a>
+                <div class="relative flex items-center justify-center -mt-5 overflow-hidden">
+                    <div class="flex items-center ml-24">
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/17725890.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/18244910.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/18340279.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/8075712.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/8075801.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                        <div class="pt-5 mr-5 shrink-0 hover:-translate-y-2 duration-300 cursor-pointer">
+                            <img src="../assets/images/free/9087629.webp" alt="new_1" class="rounded-[20px]">
+                        </div>
+                    </div>
+                    
+                    <div class="block">
+                        <button class="absolute inset-y-1/2 left-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-0 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#left"></use>
+                            </svg>
+                        </button>
+                        <button class="absolute inset-y-1/2 right-4 flex items-center justify-center px-[6px] py-[1px] w-[50px] h-[70px] rounded-lg opacity-0 group-hover:opacity-100 backdrop-blur-md bg-white/20 hover:scale-110 duration-200">
+                            <svg class="fill-white w-4 h-9">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
+
+    <footer class="flex flex-col w-full px-24">
+        <div class="flex items-start border-t border-white/10 pt-10">
+            <div class="flex flex-col basis-[39%] mr-4">
+                <ul class="flex items-center mb-9">
+                    <li class="mr-2">
+                        <a href="#" class="flex items-center justify-center w-10 h-10">
+                            <svg class="fill-white w-5 h-5">
+                                <use xlink:href="../assets/icons/icons.svg#social-vkontakte"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#" class="flex items-center justify-center w-10 h-10">
+                            <svg class="fill-white w-5 h-5">
+                                <use xlink:href="../assets/icons/icons.svg#social-viber"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#" class="flex items-center justify-center w-10 h-10">
+                            <svg class="fill-white w-5 h-5">
+                                <use xlink:href="../assets/icons/icons.svg#social-odnoklassniki"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#" class="flex items-center justify-center w-10 h-10">
+                            <svg class="fill-white w-5 h-5">
+                                <use xlink:href="../assets/icons/icons.svg#social-telegram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a href="#" class="flex items-center justify-center w-10 h-10">
+                            <svg class="fill-white w-5 h-5">
+                                <use xlink:href="../assets/icons/icons.svg#social-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <button class="relative flex items-center justify-center bg-[#6c43bf] rounded-md w-56 h-10 group">
+                    <div class="absolute inset-0 -z-10 bg-[#6c43bf] rounded-md w-full h-full group-hover:scale-y-110 group-hover:scale-x-[1.02] duration-300"></div>
+                    <svg class="fill-white w-[18px] h-[18px] mr-2 ">
+                        <use xlink:href="../assets/icons/icons.svg#chat"></use>
+                    </svg>
+                    <span class="uppercase font_medium">Нужна помощь?</span>
+                </button>
+            </div>
+            <div class="flex basis-[60%] ">
+                <ul class="basis-1/3">
+                    <li class="text-xl font_demi_bold mb-4">Okko</li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">О нас</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Блог</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Карьера в Okko</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Агенты Okko</a>
+                    </li>
+                </ul>
+
+                <ul class="basis-1/3">
+                    <li class="text-xl font_demi_bold mb-4">Помощь</li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Вопросы и ответы</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Список устройств</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Дистрибьюторам</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Контакты</a>
+                    </li>
+                </ul>
+
+                <ul class="basis-1/3">
+                    <li class="text-xl font_demi_bold mb-4">Другое</li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Акции и предложения</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Сертификаты</a>
+                    </li>
+                    <li class="mb-[10px]">
+                        <a href="#" class="text-[#8c8493] hover:text-white font_medium">Киноподборки</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex pt-[85px] pb-20">
+            <div class="w-11 h-11 mr-9 rounded-full bg-[#a22bd5] blur-2xl">
+                <div class="w-11 h-11 mr-9 rounded-full bg-[#3c1a70] blur-xl">
+                    <div class="w-11 h-11 mr-9 rounded-full bg-[#a22bd5] blur-lg">
+                        <div class="w-11 h-11 mr-9 rounded-full bg-[#3c1a70] blur-md">
+                            <div class="w-11 h-11 mr-9 rounded-full bg-[#a22bd5] blur-sm">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <span class="text-sm text-[#8c8493] font_regular">© 2012-2022 ООО «Окко» 18+</span>
+                <div class="flex">
+                    <a href="#" class="flex items-center text-sm text-[#8c8493] hover:text-[#8c8493]/30 duration-300 font_regular mr-4">
+                        Пользовательские соглашения
+                        <div class="flex items-center justify-center ml-1 bg-white/20 w-[15px] h-[15px] rounded-[4px]">
+                            <svg class="fill-white w-[5px] h-[5px]">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="#" class="flex items-center text-sm text-[#8c8493] hover:text-[#8c8493]/30 duration-300 font_regular mr-4">
+                        Политика конфиденциальности
+                        <div class="flex items-center justify-center ml-1 bg-white/20 w-[15px] h-[15px] rounded-[4px]">
+                            <svg class="fill-white w-[5px] h-[5px]">
+                                <use xlink:href="../assets/icons/icons.svg#right"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <!-- Float button -->
     <div class="sticky bottom-[5%] left-[92%] w-24 h-24 flex items-center justify-center">
